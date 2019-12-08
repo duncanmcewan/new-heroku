@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<h1><%=header1%></h1>
+
+<p><%=homePar%></p>
+
+<% toDoList.forEach(function(entry) { %>
+  <h1><a href="/posts/<%=entry.title%>"><%=entry.title%></a></h1>
+  <p><%=entry.post.substr(0,100)%> <a href="/posts/<%=entry.title%>">... [Read more]</a></p>
+<% }); %>
+
+<% include partials/footer %>
