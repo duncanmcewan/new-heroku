@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "12.x"
+    "node": "12.13.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -19,6 +19,6 @@
     "lodash": "^4.17.15",
     "mime": "^2.4.4",
     "mongoose": "^5.7.14",
-    "node": "^13.3.0"
+    "node": "^12.13.0"
   }
 }
